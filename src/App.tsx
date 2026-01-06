@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import Filters from "./components/Filters";
 import ProductList from "./components/ProductList";
-import { fetchProducts } from "./api/productsApi";
+import { fetchProducts } from "../API/ProductsApi";
 
 function App() {
   const [products, setProducts] = useState<Product[]>([]);
