@@ -1,5 +1,5 @@
 import { useMemo } from "react";
-import { fetchProducts } from "../api/productsApi";
+import { fetchProducts } from "../API/Productsapi";
 import ProductCards from "./ProductCards";
 
 interface Props {
@@ -33,3 +33,4 @@ function ProductList({ products, search, category }: Props) {
 }
 
 export default ProductList;
+
